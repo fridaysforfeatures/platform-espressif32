@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-espressif32.git"
+    "url": "https://github.com/fridaysforfeatures/platform-espressif32.git"
   },
   "version": "3.4.0",
   "frameworks": {
@@ -30,6 +30,10 @@
       "description": "ESP-IDF is the official development framework for the ESP32 and ESP32-S Series SoCs.",
       "homepage": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/",
       "title": "Espressif IoT Development Framework"
+    },
+    "zephyr": {
+      "package": "framework-zephyr",
+      "script": "builder/frameworks/zephyr.py"
     },
     "simba": {
       "package": "framework-simba",
@@ -113,6 +117,12 @@
       "owner": "platformio",
       "version": "~3.40301.0",
       "optionalVersions": ["~3.40001.0"]
+    },
+    "framework-zephyr": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~2.20701.0"
     },
     "framework-simba": {
       "type": "framework",
