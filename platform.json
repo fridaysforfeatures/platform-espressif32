@@ -168,6 +168,11 @@
       "owner": "platformio",
       "version": "~1.4.7"
     },
+    "tool-gperf": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "^3.0.0"
+    },
     "tool-ninja": {
       "optional": true,
       "owner": "platformio",
