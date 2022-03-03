@@ -9,7 +9,10 @@
     "f_flash": "40000000L",
     "flash_mode": "dio",
     "mcu": "esp32",
-    "variant": "esp32"
+    "variant": "esp32",
+    "zephyr": {
+      "variant": "esp32"
+    }
   },
   "connectivity": [
     "wifi",
@@ -22,7 +25,8 @@
   },
   "frameworks": [
     "arduino",
-    "espidf"
+    "espidf",
+    "zephyr"
   ],
   "name": "Espressif ESP32 Dev Module",
   "upload": {
