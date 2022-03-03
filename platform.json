@@ -163,6 +163,11 @@
       "owner": "platformio",
       "version": "~3.16.0"
     },
+    "tool-dtc": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.4.7"
+    },
     "tool-ninja": {
       "optional": true,
       "owner": "platformio",
